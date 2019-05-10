@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/public.css">
+	<link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<style>
+	   .register{margin:60px auto;width:600px;height:340px;border:#9e9e9e 1px solid;display:flex;flex-direction:column;align-content: center;padding-top:10px ;background:#ffd7c4;}
+	  .login .register input{width:400px;margin:10px auto;line-height:20px;padding:10px;} 
+	  .login .register b{margin-left:40px;}
+	 #btn{width:150px;border-radius: 20px;background:#f60;font:14px/14px "";border:none;cursor: pointer;} 
+	</style>
+</head>
+<body>
+	<header></header>
+	<div class="login">
+			<form class="register">
+				<div>
+					<a href="login.html">登录</a>
+					<a href="reg.html">注册</a>	
+				</div>
+			   <b> 用户名： &nbsp; &nbsp;<input type="text" id="user"><span></span></b> </br>
+			   <b>密&nbsp;&nbsp;&nbsp;码： &nbsp; &nbsp;<input type="text" id="pass"><span></span> </b></br>
+			   <input type="button" value="登  &nbsp; &nbsp; &nbsp; &nbsp;录" id="btn">
+			   <p id="point"></p>
+			</form>		
+	</div>
+	<footer></footer>
+</body>
+<script src="libs/jquery.js"></script>
+<script src="libs/cookie.js"></script>
+<script src="js/login.js"></script>
+</html>

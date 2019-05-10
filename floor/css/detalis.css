@@ -1,0 +1,34 @@
+.mt15{margin-top:15px;}
+.breadcrumb{padding:8px 15px;margin-bottom:20px;border-radius:4px;color:#777;}
+.breadcrumb>li{display:inline-block;}
+.glypicon{position: relative;top:1px;display:inline-block;}
+.breadcrumb li span{margin:8px;color:#00bf9d;}
+
+.itemCover{padding:35px 15px 35px 5px;border:1px solid #ddd;background:#fff;margin-bottom:20px;box-sizing: border-box;}
+.itemCoverShow{width:40%;float:left;position: relative;}
+.itemCoverShowContainer{width:88%;margin:auto;position: relative;}
+.specPreview{width:92%;height:auto;border:1px solid #eee;position: relative; padding:5px;text-align:center;}
+.specPreview a{width:400px;text-decoration:none;display:block;position: relative;}
+.specScroll{margin-top:10px;width:100%;position: relative;}
+.specScroll .items{width:100%;height:74px;overflow:hidden;position: relative;}
+.specScroll .items ul{height:100%;width:420px;position: absolute;top:0;left:0;}
+.specScroll .items ul li{float:left;margin-right:10px;}
+.specScroll .items ul li img{border:1px solid #eee;padding:2px;width:74px;height:74px;}
+.itemShowTopPanel{width:56%;float:right;padding-right:3%;}
+.itemShowTopPanel .goodsName{font:800 18px/2 "";border-bottom:1px solid #eee;padding-bottom:8px;}
+.itemShowTopPanel .goodsName .subtitle {color: #e4393c;font-weight:normal}
+.itemShowTopPanel .goodsInfo li {line-height: 2;color: #666;display: table;width: 100%;padding-top: 8px;}
+.itemShowTopPanel .goodsInfo li .td {display: table-cell; width: 50%;}
+b, strong {font-weight: 700;}
+.Reserve{color:#f60;font-weight:bold;padding-right:10px;}
+.pf{display:inline-block;height:17px;width:80px;vertical-align:middle;margin-right:5px;}
+.pf_5{background-position:0 -33;}
+.itemShowTopPanel .choose {color: #666; border-top: 1px solid #eee;padding-top: 15px;}
+.itemShowTopPanel .choose dt {float: left; margin-right: -80px;font-weight: 700;
+}
+.itemShowTopPanel .choose dd { float: left; padding-left: 80px;width: 100%;}
+.choose .current, .choose dd a:hover {color: #e4393c; border-color: #e4393c;}
+.choose dd a {position: relative;text-decoration: none;border: 2px solid #eee;margin-right: 0.62rem;display: inline-block;padding: 5px;}
+.choose dd a img {margin: -3p;vertical-align: middle;}
+.itemShowTopPanel .buttons {border-top: 1px dotted #e6e7e7;padding: 25px 0 0 0;margin-top: 25px;}
+.buttonsStatus {background-color: rgba(48, 240, 80, 0.76); padding: 8px 20px;color: #fff;font-size: 18px;margin:0 5px;border-radius:4px;}

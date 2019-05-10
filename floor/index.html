@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>花语鲜花网</title>
+	<link rel="shortcut icon" href="1.ico" type="image/x-icon" />
+	<link rel="stylesheet" href="css/public.css">
+	<link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+	<link rel="stylesheet" href="css/home.css" type="text/css">
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+<body>
+<header>
+	<a href="favourable.html" target="_blank" id="topbanner">
+		<div class="topbanner"></div>
+	</a>
+	<div class="site-nav">
+		<div class="container">
+			<div class="site-nav-l">
+				<a href="#"><img src="images/sc.png" alt=""> 收藏鲜花网(hua.com)</a>&nbsp;&nbsp;&nbsp;
+				<a href="index.html">首页</a>
+			</div>
+			<ul class="site-nav-r clear">
+				<li class="menu login" id="LoginInfo">
+					你好，请<a href="login.html">登录</a><a href="reg.html">注册</li>
+				<li class="site-nav-pipe">|</li>
+				<li class="menu">
+					<a href="#" >订单查询</a>
+				</li>
+				<li class="site-nav-pipe">|</li>
+				<li class="menu dropdown">
+					<a href="#"  >我的花礼</a>
+				<li class="site-nav-pipe">|</li>
+				<li class="menu dropdown">
+					<a href="#"  >客户服务</a>
+					<!-- 	<span class="glyphicon glyphicon-triangle-bottom"></span>
+					 <div class="dropdown-menu dropdown-service">
+						<a href="#" target="_blank">在线付款</a>
+						<a href="#" target="_blank">帮助中心</a>
+						<a href="#" target="_blank">售后服务</a>
+						<a href="#" target="_blank">配范围</a>
+						<a href="#" target="_blank">留言反馈</a>
+					</div> --> 
+				</li>
+				<li class="site-nav-pipe">|</li>
+				<li class="menu dropdown">
+					<a href="car.html" >
+					<img src="images/shop1.png" alt="">
+						购物车
+						<span class="text-primary" id="gwcCount">(0)</span>
+				    </a>
+				</li>
+				<li class="site-nav-pipe">|</li>
+			</ul>
+		</div>
+	</div>
+	<div class="container clear">
+		<div class="logo">
+			<a href="index.html" class="logo-bd"></a>
+		</div>
+	<div class="search">
+		<form name="i_search" method="get" action="/search/">
+			<div class="input-group">
+				<input name="keyword" type="text" class="form-control"  id="txt" value="紫罗兰">
+				<span class="input-group-btn">
+					<button id="test" class="btn btn-primary" type="button">搜索</button>
+				</span>
+				<div class="cont">
+					<div>
+						<ul class="list">
+							<li>玫瑰</li>
+							<li>牡丹</li>
+							<li>郁金香</li>
+							<li>芍药</li>
+							<li>彼岸花</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</form>
+		
+		<span class="help-block">
+			<a href="#" target="_blank">红玫瑰</a> | <a href="#" target="_blank">永生花</a>|
+			<a href="#" target="_blank">生日鲜花</a> | <a href="#" target="_blank">礼品卡</a>
+		</span>
+	</div>
+	<div class="service serviceDefault">
+			<img src="images/tel.png" alt=""> 400-889-8188
+			&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
+			<a id="header-chat" href="javascript:;" target="_blank">
+		    <img src="images/service.png" alt=""> 在线客服</a>
+        </div>
+	</div>
+</header>
+<nav class="default">
+		<div class="container">
+			<div class="categorys">
+				<h3 class="categorys-title">
+					<a href="/all.html" target="_blank">全部商品导购</a>
+				</h3>
+				<ul class="subnav">
+                   <li>
+					   <h4>鲜花用途</h4>
+					   <a href="#">爱情鲜花</a>
+					   <a href="#">生日鲜花</a>
+					   <a href="#">友情鲜花</a>
+					   <a href="#">问候长辈</a>
+					   <a href="#">探病鲜花</a>
+					   <a href="#">道歉鲜花</a>
+					   <a href="#">祝贺鲜花</a>
+					   <a href="#">婚庆鲜花</a>
+					   <a href="#">商务鲜花</a>
+				   </li>
+				   <li>
+					   <h4>鲜花花材</h4>
+					   <a href="#">玫瑰</a>
+					   <a href="#">百合</a>
+					   <a href="#">向日葵</a>
+					   <a href="#">郁金香</a>
+					   <a href="#">马蹄莲</a>
+				   </li>
+				   <li class="dis">
+					   <h4><s>永生花</s><b>&gt;</b></h4>
+					   <div class="tnav">
+						   <h5>| 永生花类别</h5>
+						   <div class="link-img">
+								<a href="#">
+									<img width="96" height="62" src="//img02.hua.com/pc/pimg/ysh_brand_menu_01.jpg">经典花盒
+								</a>
+								<a href="#">
+									<img width="96" height="62" src="//img02.hua.com/pc/pimg/ysh_brand_menu_02.jpg">巨型玫瑰
+								</a>
+								<a href="#">
+									<img width="96" height="62" src="//img02.hua.com/pc/pimg/ysh_brand_menu_03.jpg">薰衣草
+								</a>
+								<a href="#">
+									<img width="96" height="62" src="//img02.hua.com/pc/pimg/ysh_brand_menu_04.jpg">永生瓶花
+								</a>
+								<a href="#">
+									<img width="96" height="62" src="http://img02.hua.com/pc/pimg/ysh_brand_menu_05.jpg">特色永生花
+								</a>
+							</div>
+					   </div>
+				   </li>
+				   <li class="dis">
+					<h4><s>蛋糕</s><b>&gt;</b></h4>
+						<div class="tnav">
+								<h5>| 蛋糕品牌</h5>
+								<div class="link-img">
+										<a href="#">
+											<img src="//img02.hua.com/pc/pimg/cake_brand_menu_01.jpg" height="62" width="96">元祖
+										</a>
+										<a href="#">
+											<img src="//img02.hua.com/pc/pimg/cake_brand_21cake.png" height="62" width="96">廿一客蛋糕
+										</a>
+										<a href="#">
+											<img src="//img02.hua.com/pc/pimg/cake_brand_menu_08.jpg" height="62" width="96">诺心蛋糕
+										</a>
+										<a href="#">
+											<img src="//img02.hua.com/pc/pimg/cake_brand_s_16.png" height="62" width="96">INCAKE
+										</a>
+										<a href="#">
+											<img src="//img02.hua.com/pc/pimg/brandcake_beisike.png?11" height="62" width="96">贝思客
+										</a>
+										<a href="#">
+											<img src="//img02.hua.com/pc/pimg/boncake.png" height="62" width="96">BONCAKE
+										</a>
+										<a href="#">
+											<img src="//img02.hua.com/pc/pimg/cake_brand_menu_09.jpg" height="62" width="96">Mcake蛋糕
+										</a>
+										<a href="#">
+											<img src="//img02.hua.com/pc/pimg/cake_brand_menu_05.jpg" height="62" width="96">米卡米卡
+										</a>
+										<a href="#">
+											<img src="//img02.hua.com/pc/pimg/cake_brand_menu_04.jpg" height="62" width="96">窝夫小子
+										</a>
+										<a href="#">
+											<img src="//img02.hua.com/pc/pimg/cake_brand_menu_07.jpg" height="62" width="96">幸福西饼
+										</a>
+								</div>
+						</div>
+					</li>
+					<li class="dis">
+						<h4><s>礼品/公仔/绿植</s><b>&gt;</b></h4>
+						<div class="tnav">
+							<h5>| 礼品类别</h5>
+							<h5>| 公仔类别</h5>
+							<h5>| 绿植类别</h5>
+						</div>
+					</li>
+			    </ul>
+			</div>
+			<ul class="nav">
+				<li><a href="#" target="_blank">鲜花</a></li>
+				<li><a href="#" target="_blank">永生花</a></li>
+				<li><a href="#" target="_blank">蛋糕</a></li>
+				<li><a href="#" target="_blank">礼品</a></li>
+				<li><a href="#" target="_blank">巧克力</a></li>
+				<li><a href="#" target="_blank">花语大全</a></li>
+				<li><a href="#" target="_blank">企业团购</a></li>
+				<li><a href="#" target="_blank">设计师臻选鲜花</a></li>
+				<li><a style="color: #ff6600;" href="#" target="_blank">母亲节鲜花礼品</a></li>
+			</ul> 
+		</div>
+</nav>
+<section>
+	<div class="banner">
+		<a href="#"><img src="//img02.hua.com/slider/19_mothersday0507_pc.jpg" alt=""></a>
+		<a href="#"><img src="//img02.hua.com/slider/18_birthday_pc.jpg" alt=""></a>
+		<a href="#"><img src="//img02.hua.com/slider/18_jinniu_pc.jpg" alt=""></a>
+		<a href="#"><img src="//img02.hua.com/slider/18_youflower_pc.jpg" alt=""></a>
+		<a href=""><img src="//img02.hua.com/banner/longtou.jpg" alt=""></a>
+		<ul>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+		</ul>
+	</div>
+	<div class="container">
+	<div id="serve" >
+    	<div class="margin">
+    		<ul>
+				<li><a href="#"><img src="images/one.png"/>
+					<h4>鲜花电商龙头</h4>
+                    <p>销量领先，权威认证龙头企业</p>
+				</li>
+				<li><a href="#"><img src="images/r.png"/> 
+				    <h4>14年品牌 真实口碑</h4>
+					<p>最近评价</p></a>
+				</li>
+				<li><a href="#"><img src="images/common.png"/>
+					<h4>鲜花实拍秀展示</h4>
+					<p>敢展现送前实拍的鲜花网</p></a>
+				</li>
+				<li><a href="#"><img src="images/3.png"/>
+					<h4>3小时送花</h4>
+					<p>全国连锁，3小时送2000城市</p></a>
+				</li>
+				<li><a href="#"><img src="images/p.png"/> 
+					<h4>200%退赔承诺</h4>
+					<p>可靠的售后保障</p></a>
+				</li>
+    		</ul>
+    	</div>
+	</div>
+	<ul id="pri">
+			<li class="privilege">限 时</br>特 惠</li>
+			<li>
+					<a href="#">
+						<div class="li-l">
+							<p>赠巧克力</p>
+							<span>￥352</span>
+							<s>直降20</s>
+						</div>
+						<img src="https://img02.hua.com/tuijian/xianshi_1_190303.png">
+					</a>
+			</li>
+	
+			<li>
+				<a href="#">
+					<div class="li-l">
+						<p>赠巧克力</p>
+						<span>￥352</span>
+						<s>直降20</s>
+					</div>
+					<img src="https://img02.hua.com/tuijian/xianshi_2_190303.png">
+				</a>
+			</li>
+			<li>
+					<a href="#">
+						<div class="li-l">
+							<p>赠巧克力</p>
+							<span>￥352</span>
+							<s>直降20</s>
+						</div>
+						<img src="https://img02.hua.com/tuijian/xianshi_3_190303.png">
+					</a>
+				</li>
+			<li class="pril"><img src="https://img02.hua.com/slider/18_youflower_pcsmall.jpg" /></li>
+	</ul>
+	<div class="f1 floor clear">
+		<div class="hd clear">
+			<a class="more" href="#" target="_blank">更多爱情鲜花 &gt;&gt;</a>
+			<h3><a href="#" target="_blank"><s>爱情鲜花</s></a><span>送·让你怦然心动的人</span>
+			</h3>
+		</div>
+		<div class="bd">
+			<div class="bd-l">
+				<div class="banner-box">
+					<a href="#" target="_blank">
+						<img width="243" height="438" style="display: inline;"
+							src="http://img02.hua.com/pc/pimg/banner_love.jpg">
+					</a>
+				</div>
+				<a class="banner-link" href="#" target="_blank">爱情鲜花专区 &gt;&gt;</a>
+			</div>
+			<ul id="floorGoods">
+			</ul>
+		</div>
+	</div>
+	<div class="f2 floor clear">
+		<div class="hd clear">
+			<a class="more" href="#" target="_blank">更多送长辈鲜花 &gt;&gt;</a>
+			<h3><a href="#" target="_blank"><s>送长辈鲜花</s></a><span>赠·父母/恩师/长辈</span>
+			</h3>
+		</div>
+		<div class="bd">
+			<div class="bd-l">
+				<div class="banner-box">
+					<a href="#" target="_blank">
+						<img width="243" height="438" style="display: inline;"
+							src="http://img02.hua.com/pc/pimg/banner_elder.jpg">
+					</a>
+				</div>
+				<a class="banner-link" href="#" target="_blank">送长辈鲜花专区 &gt;&gt;</a>
+			</div>
+			<ul id="floorGoods">
+			</ul>
+		</div>
+	</div>
+	<div class="f3 floor clear">
+		<div class="hd clear">
+			<a class="more" href="#" target="_blank">更多永生花 &gt;&gt;</a>
+			<h3><a href="#" target="_blank"><s>永生花</s></a><span>许·她一生承诺</span>
+			</h3>
+		</div>
+		<div class="bd">
+			<div class="bd-l">
+				<div class="banner-box">
+					<a href="#" target="_blank">
+						<img width="243" height="438" style="display: inline;"
+							src="http://img02.hua.com/pc/pimg/banner_song.jpg">
+					</a>
+				</div>
+				<a class="banner-link" href="#" target="_blank">永生花专区 &gt;&gt;</a>
+			</div>
+			<ul id="floorGoods">
+			</ul>
+		</div>
+	</div>
+	<div class="news">
+    	<ul class="news-left">
+    		<h3>感动瞬间</h3>
+			 <li><a href="#">· 超感动|花礼网用户真情故事</a></li>
+			 <li><a href="#">· 超感动|花礼网用户真情故事</a></li>
+			 <li><a href="#">· 超感动|花礼网用户真情故事</a></li>
+			 <li><a href="#">· 超感动|花礼网用户真情故事</a></li>
+			 <li><a href="#">· 超感动|花礼网用户真情故事</a></li>
+			 <li><a href="#">· 超感动|花礼网用户真情故事</a></li>
+			 <li><a href="#">· 超感动|花礼网用户真情故事</a></li>
+    	</ul>
+    	<ul class="news-center">
+    		<h3>最新评价</h3>
+
+    		<div class="news-center-l">
+    		    <img src="images/pj.png"/>
+    		    <p>52343*gwe*</p>
+    		</div>
+    		<div class="news-center-r">
+    			<img src="images/xing1.png"/></br>
+    			<span>内容：准时！完美！</span>
+    		</div>
+    	
+
+    		<div class="news-center-l">
+    		    <img src="images/pj.png"/>
+    		    <p>23543*gwe*</p>
+    		</div>
+    		<div class="news-center-r">
+    			<img src="images/xing1.png"/></br>
+    			<span>内容：准时！完美！</span>
+    		</div>
+    		
+    		<div class="news-center-l">
+    		    <img src="images/pj.png"/>
+    		    <p>54233*gwe*</p>
+    		</div>
+    		<div class="news-center-r">
+    			<img src="images/xing1.png"/></br>
+    			<span>内容：准时！完美！</span>
+    		</div>
+
+    	</ul>
+    	<ul class="news-right">
+    		<h3>热门资讯</h3>
+			 <li><a href="#">· 送女朋友鲜花，送花卡片写什么</a></li>
+			 <li><a href="#">· 送女朋友鲜花，送花卡片写什么</a></li>
+			 <li><a href="#">· 送女朋友鲜花，送花卡片写什么</a></li>
+			 <li><a href="#">· 送女朋友鲜花，送花卡片写什么</a></li>
+			 <li><a href="#">· 送女朋友鲜花，送花卡片写什么</a></li>
+			 <li><a href="#">· 送女朋友鲜花，送花卡片写什么</a></li>
+			 <li><a href="#">· 送女朋友鲜花，送花卡片写什么</a></li>
+    	</ul>
+    </div>
+    <div class="ma">
+       	<div class="box">
+       		<ul>
+       			<li class="i1">
+       				<img src="images/er.png"/><br>
+       				<p>手机APP下载</p>
+       			</li>
+       			<li class="i2">
+       				<img src="images/leyuan.png"/>
+       			</li>
+       			
+       			<li class="i3">
+       				<img src="images/er.png"/>
+       				<p>关注赢好礼</p>
+       			</li>
+       		</ul>
+       </div>
+    </div>
+</div>
+
+</section>
+<div class="backtop"> 
+        <img src="images/top.png" alt="">
+</div>
+<footer> 
+		<div class="footer-nav">
+			<a href="index.html">首页</a>
+			<b>|</b>
+			<a href="index.html">关于我们</a>
+			<b>|</b>
+			<a href="index.html">媒体报道</a>
+			<b>|</b>
+			<a href="index.html">联系方式</a>
+			<b>|</b>
+			<a href="index.html">企业团购</a>
+			<b>|</b>
+			<a href="index.html">花店入住</a>
+			<b>|</b>
+			<a href="index.html">友情链接</a>
+			<b>|</b>
+			<a href="index.html">在线补款</a>
+			<b>|</b>
+			<a href="index.html">为什么选</a>
+		</div>
+		<div class="auth clear container">
+			<a href="https://ss.knet.cn/verifyseal.dll?sn=e15041744030058395oqbo000000&amp;ct=df&amp;a=1&amp;pa=0.8817607406526804"
+				target="_blank"><img style="height:40px;" src="//img02.hua.com/pc/assets/img/cxwz.png"></a>
+			<a href="https://search.szfw.org/cert/l/CX20130306002238002312" target="_blank"><img
+					src="//img02.hua.com/pc/assets/img/cxwz.gif" height="40" width="112"></a>
+			<a href="http://www.anquan.org/authenticate/cert/?site=www.hua.com&amp;at=realname" rel="nofollow"
+				target="_blank"><img src="//img02.hua.com/pc/assets/img/smyz.gif" height="40" width="106"></a>
+			<img src="//img02.hua.com/pc/assets/img/slogan.png" height="50" width="212">
+			<a href="/member/payment/fillbyalipay?order_no=&amp;total_fee=" rel="nofollow" target="_blank"><img
+					src="//img02.hua.com/pc/assets/img/zfb.gif" height="49" width="96"></a>
+			<a href="/profile/news_20111110.htm" target="_blank"><img src="//img02.hua.com/pc/assets/img/100.jpg" height="49"
+					width="150"></a>
+			<a href="/profile/ICP.htm" rel="nofollow" target="_blank"><img src="//img02.hua.com/pc/assets/img/bico1.jpg"
+					alt="ICP" height="46" width="35"></a>
+			<a href="http://szcert.ebs.org.cn/fab6de6a-ff80-4e63-89e4-cd531170c256" rel="nofollow" target="_blank"><img
+					alt="工商网监" src="//img02.hua.com/pc/assets/img/bico4.jpg" height="46" width="35"></a>
+			<a href="http://www.sznet110.gov.cn/netalarm/index.jsp" rel="nofollow" target="_blank"><img
+					src="//img02.hua.com/pc/assets/img/bico3.jpg" alt="网安" height="46" width="35"></a>
+		</div>
+		<p><a href="#">中国花卉协会委员 中国电子商务协会委员 ICP经营许可证 粤46353758@3用3534</a></p>
+		<p><a href="#">www.hua.com mengziwei科技有限公司</a></p>
+</footer>
+</body>
+<script src="libs/jquery.js"></script>
+<script src="libs/ajax.3.0.js"></script>
+<script src="libs/cookie.js"></script>
+<script src="js/goods.js"></script>
+<script src="libs/require.js"></script>
+ <script src="js/banner.js"></script>
+<script src="js/search.js"></script> 
+
+
+<script>
+</script>
+</html>
